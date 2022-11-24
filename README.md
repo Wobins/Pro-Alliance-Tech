@@ -21,14 +21,19 @@ To start the app you have follow the steps below:
 - start the server on port 5000 by running `npm run server` 
 - open your browser to view the API at [http://localhost:5000/tasks](http://localhost:5000/tasks)
 - launch the React app with `npm start` command and open [http://localhost:3000](http://localhost:3000)
-- start testing with Cypress by running `npm run cypress:open`, if you have chrome it will be open by default but you can edit it at the line 24 of package.json file
-- now you can visit all the tests in the cypress/e2e folder
+- start testing with Cypress by running `npm run cypress:open`
+- now you can visit all the tests either in cypress/component or in cypress/e2e folder
 
 
-# My Tests
+# E2E Testing
 - check-links.cy.js: to verify all links correctly works
 - apitest.cy.js: to test the API
 - ui-behavior.cy.js: to check if the UI responds when adding a task with exact styles
 - 1-addtodo.cy.js: to add tasks with cypress commands
 - 2-addtodo.cy.js: to add tasks using Page object modelling 
 - deletetask.cy.js: to delete the last task listed
+
+# Component Testing tests
+- About.cy.js: to test the About component
+- Footer.cy.js: to test the Footer component
+- TaskDetails.cy.js: to test the TaskDetails component
