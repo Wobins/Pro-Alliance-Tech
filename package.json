@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 5000",
-    "cypress:open": "cypress open --e2e --browser chrome"
+    "cypress:open": "cypress open --browser chrome"
   },
   "eslintConfig": {
     "extends": [
