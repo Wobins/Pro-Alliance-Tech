@@ -1,6 +1,7 @@
 # React Task Tracker
 
-Here is a to-do app project made with JavaScript and React.
+Here is a to-do app project made with JavaScript and React from Brad Traversy youtube channel.\
+I cloned it and added testing to it.
 
 # Features
 - you can add a task with or without a reminder
