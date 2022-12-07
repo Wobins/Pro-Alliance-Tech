@@ -1,4 +1,4 @@
-# React Task Tracker
+# ABOUT
 
 Here is a to-do app project made with JavaScript and React from Brad Traversy youtube channel.\
 I cloned it and added testing to it.
